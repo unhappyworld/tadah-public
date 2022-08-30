@@ -1,0 +1,21 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "tampa",
+    "version": "1.0.0",
+    "builtin-baseline": "38bb87c5571555f1a4f64cb4ed9d2be0017f9fc1",
+    "dependencies": [
+        "boost",
+        "cpp-netlib",
+        "curl",
+        "ijg-libjpeg",
+        "freetype",
+        "libpng",
+        "lz4",
+        "openvr",
+        "sdl2",
+        "zlib"
+    ],
+    "overrides": [
+        { "name": "openvr", "version": "1.12.5" }
+    ]
+}

@@ -1,0 +1,5 @@
+add_subdirectory(Graphics3D)
+add_subdirectory(GfxBase)
+add_subdirectory(GfxCore)
+add_subdirectory(GfxRender)
+add_subdirectory(AppDraw)
